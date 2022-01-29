@@ -11,11 +11,11 @@ html{
 }
 /*-----HEADER*/
 header{
-	background-color: #060E40;
+	background-color: #FF1493;
 	font-size: 50px;
 	/*margin-bottom: 20px;*/
 	color: white;
-	border: groove;
+	border: solid;
 	width: 500px;
 	margin: 10px;
 	margin-left: 15px;
@@ -74,7 +74,7 @@ h1{
 	border: groove;
 	font-family: Times;
 	font-size: 20px;
-	color: purple;
+	color: #FF1493;
 }
 
 h2{
