@@ -1,0 +1,53 @@
+body{
+    background:rgb(200, 255, 144);
+}
+
+#title, .post_title{
+    color: blue;
+    background: white;
+}
+
+#title{  
+    padding: 10px;
+}
+
+.meio{
+    border: 1px solid black;
+    background:greenyellow;
+}
+
+.subtitle{
+    color: white;
+    background: mediumblue;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.post{
+    background: white;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.post_title{
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    background: rgb(255, 210, 113);
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.rodape{
+    background: white ;
+    
+    padding: 10px;
+    font-size: small;
+    font-family: monospace;
+    text-align: center;
+}
