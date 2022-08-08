@@ -1,49 +1,92 @@
+/*
+#0c3a65 - azul escuro conteudo
+#25b8ee - azul claro fundo
+#7ecaee - azul claro titulo footer
+#001726 - azul escuro fundo footer
+#425c73 - azul claro texto footer
+
+*/
+
+
+header{
+    margin-bottom: 25px;
+    margin: 0px;
+}
 body{
-    background:rgb(200, 255, 144);
+    background: #25b8ee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*margin: 15px;*/
 }
 
+
+
 #title, .post_title{
-    color: blue;
-    background: white;
+    color: rgb(255, 255, 255);
+    
 }
 
 #title{  
     padding: 10px;
+    background: rgb(242, 242, 242);
+    border-radius: 25px;
+    text-transform: uppercase;
 }
 
-.meio{
+.meio {
     border: 1px solid black;
-    background:greenyellow;
+    background: #0c3a65;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
 }
 
 .subtitle{
     color: white;
-    background: mediumblue;
+    background: #001058;
     border: 1px solid black;
     padding: 5px;
     margin-top: 0px;
 }
 
 .post{
-    background: white;
+    background: #F2F2F2;
     padding: 10px;
     border: 3px solid black;
+    border-radius: 25px;
     margin: 10px;
+    padding: 15px 10px 5px 15px;
+    text-align: justify;
 }
 
 .post_title{
     font-size: 20px;
     font-style: italic;
+    text-shadow: 0 1px #000;
+    background-color: #0e3955;
+    padding: 6px 12px;
 }
 
 footer{
-    background: rgb(255, 210, 113);
-    padding: 10px;
-    border: 1px solid black;
-    margin-top: 10px;
+    background-color: #001726;
+    margin-top: 30px;
+    color: #425c73;
 }
 
-.rodape{
+.rodape_post{
+    color:#F2F2F2 ;
+    background-color: #001726;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+#lista-contato{
+    list-style-type:none;
+}
+
+.creditos{
     background: white ;
     
     padding: 10px;

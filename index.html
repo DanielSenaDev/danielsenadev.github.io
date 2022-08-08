@@ -3,19 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Sena</title>
-        <link rel="stylesheet" href="styles/style.css" >
+        
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
     </head>
     <body>
         <header>
-            <img src="imagens/Daniel.jpg" width="100" alt="Foto de Perfil de Daniel Sena">
-            <h1 id="title">Daniel Sena</h1>
+                        
+            <nav class="navbar navbar-expand-lg bg-light">
+                <a class="navbar-brand" href="#">Daniel Sena</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+            
+
         </header>
+        
 
         <section class="meio">
 
-            <header>
-                <h2 class="subtitle">Inicio</h2>
-            </header>
+            
 
             <article class="post">
                 <header>
@@ -35,23 +50,23 @@
                     </div>
                 </header>
             </article>
+        </section>
 
-            <footer>
-                <header>
-                    <h3>Entre em Contato</h3>
-                    <ul>
+        <footer>
+
+            <section id="contato">
+                <div class="container-fluid contato">
+                    <h3 class="footer_title">Entre em Contato</h3>
+                    <ul id="lista-contato">
                         <li>Email: <a href="mailto:danielsan.2000@hotmail.com">danielsan.2000@hotmail.com</a></li>
                         <li>Canal no Youtube: <a href="http://youtube.com/Kinwink" target="_blank" rel="noopener noreferrer">http://youtube.com/Kinwink</a></li>
                         <li>Canal na Twitch.tv: <a href="http://twitch.tv/Kinwink" target="_blank" rel="noopener noreferrer">http://twitch.tv/Kinwink</a></li>
-                    </ul>
-                </header>
-            </footer>
-
-        </section>
-        
-        <footer class="rodape">
+                    </ul>  
+                </div>
+                               
+            </section>
             <section>
-                Página criada com <3 por <a href="http://github.com/DanielSenaDev" target="_blank">Daniel Sena</a>.<br>
+                Página criada com <3 por <a href="http://github.com/DanielSenaDev" target="_blank">Daniel Sena</a> :)<br>
             </section>
         </footer>
     </body>
